@@ -7,7 +7,8 @@ The data was downloaded from the Bureau of Transportation Statistics website htt
 The EDA notebook loads the data and performs a series of commands to format, clean, feature engineer and perform exploratory analysis.
 
 The corresponding csv files are:
-•	airline_delay_causes.rar
+
+•	airline_delay_causes.rar  
 •	airport_latlong.csv
 
 The first dataset contains flight statistics for all airports in the United States. Each observation is reported by month, year, airport, and airline. Flights can be categorized as on time, delayed, canceled or diverted. Flight delays are attributed to five causes: carrier, weather, NAS, security, and late aircraft. The second csv contains the latitude and longitude of all US airports to merge into the main dataset. The notebook also exports the clean dataset, which contains 157,906 observations.
